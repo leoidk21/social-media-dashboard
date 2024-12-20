@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tangerine:wght@400;700&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Leo Chavez</title>
+</head>
+<body>
+  <main class="container">
+        <div class="top-background" id="top-background">
+            <div class="content">
+                    <div class="top-text">
+                        <h1>Social Media Dashboard</h1>
+                        <p>Total Followers: 23,004</p>
+                    </div>
+
+                    <div id="toggle">
+                        <p>Dark Mode</p>
+                        <div id="box">
+                        <input type="checkbox" id="check">
+                        <label for="check" id="label"></label>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="social-media-card" id="social-media-card">
+            <div class="card">
+                <article class="item-card" id="item-card">
+                    <div class="fb-top-card">
+                            <div class="social-media-icon">
+                                <img src="/images/icon-facebook.svg" alt="facebook-icon">
+                                <p class="email">@nathanf</p>
+                            </div>
+                            <h1>
+                                1987
+                            </h1>
+                            <p class="followers-text">
+                                Followers
+                            </p>
+                            <div class="status">
+                                <img src="/images/icon-up.svg" alt="up-icon">
+                                <p class="aggregation">12 Today</p>
+                            </div>
+                    </div>
+                </article>
+
+                <article class="item-card" id="item-card">
+                    <div class="tw-top-card">
+                            <div class="social-media-icon">
+                                <img src="/images/icon-twitter.svg" alt="facebook-icon">
+                                <p class="email">@nathanf</p>
+                            </div>
+                            <h1>
+                                1044
+                            </h1>
+                            <p class="followers-text">
+                                Followers
+                            </p>
+                            <div class="status">
+                                <img src="/images/icon-up.svg" alt="up-icon">
+                                <p class="aggregation">99 Today</p>
+                            </div>
+                    </div>
+                </article>
+
+                <article class="item-card" id="item-card">
+                    <div class="ig-top-card">
+                            <div class="social-media-icon">
+                                <img src="/images/icon-instagram.svg" alt="facebook-icon">
+                                <p class="email">@realnathanf</p>
+                            </div>
+                            <h1>
+                                11k
+                            </h1>
+                            <p class="followers-text">
+                                Followers
+                            </p>
+                            <div class="status">
+                                <img src="/images/icon-up.svg" alt="up-icon">
+                                <p class="aggregation">1099 Today</p>
+                            </div>
+                    </div>
+                </article>
+
+                <article class="item-card" id="item-card">
+                    <div class="yt-top-card">
+                            <div class="social-media-icon">
+                                <img src="/images/icon-youtube.svg" alt="facebook-icon">
+                                <p class="email">Nathan F.</p>
+                            </div>
+                            <h1>
+                                8239
+                            </h1>
+                            <p class="followers-text">
+                                Subscribers
+                            </p>
+                            <div class="status">
+                                <img src="/images/icon-down.svg" alt="up-icon">
+                                <p class="aggregation-yt">144 Today</p>
+                            </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="overview-container">
+            <h1 id="overview-text">
+                Overview - Today
+            </h1>
+            <div class="overview">
+                <article class="overview-card">
+                        <div class="overview-card-icon">
+                            <p>Page Views</p>
+                            <img src="/images/icon-facebook.svg" alt="">
+                        </div>
+                        <div class="overview-card-status">
+                            <div class="overview-card-text">
+                                <h1>87</h1>
+                            </div>
+                            <div class="overview-card-aggregation">
+                                <img src="/images/icon-up.svg" alt="up-icon">
+                                <p>3%</p>
+                            </div>
+                        </div>
+                </article>
+
+                <article class="overview-card">
+                        <div class="overview-card-icon card-icon">
+                            <p>Likes</p>
+                            <img src="/images/icon-facebook.svg" alt="">
+                        </div>
+                        <div class="overview-card-status">
+                            <div class="overview-card-text">
+                                <h1>52</h1>
+                            </div>
+                            <div class="overview-card-aggregation">
+                                <img src="/images/icon-down.svg" alt="up-icon">
+                                <p class="aggregation-down">2%</p>
+                            </div>
+                        </div>
+                </article>
+
+                <article class="overview-card">
+                        <div class="overview-card-icon">
+                            <p>Likes</p>
+                            <img src="/images/icon-instagram.svg" alt="">
+                        </div>
+                        <div class="overview-card-status">
+                            <div class="overview-card-text">
+                                <h1>5462</h1>
+                            </div>
+                            <div class="overview-card-aggregation">
+                                <img src="/images/icon-up.svg" alt="up-icon">
+                                <p>2257%</p>
+                            </div>
+                        </div>
+                </article>
+
+                <article class="overview-card">
+                        <div class="overview-card-icon card-icon">
+                            <p>Profile Views</p>
+                            <img src="/images/icon-instagram.svg" alt="">
+                        </div>
+                        <div class="overview-card-status">
+                            <div class="overview-card-text">
+                                <h1>52k</h1>
+                            </div>
+                            <div class="overview-card-aggregation">
+                                <img src="/images/icon-up.svg" alt="up-icon">
+                                <p>1375%</p>
+                            </div>
+                        </div>
+                </article>
+
+                <article class="overview-card">
+                        <div class="overview-card-icon">
+                            <p>Retweets</p>
+                            <img src="/images/icon-twitter.svg" alt="">
+                        </div>
+                        <div class="overview-card-status">
+                            <div class="overview-card-text">
+                                <h1>117</h1>
+                            </div>
+                            <div class="overview-card-aggregation">
+                                <img src="/images/icon-up.svg" alt="up-icon">
+                                <p>303%</p>
+                            </div>
+                        </div>
+                </article>
+
+                <article class="overview-card">
+                        <div class="overview-card-icon card-icon">
+                            <p>Likes</p>
+                            <img src="/images/icon-twitter.svg" alt="">
+                        </div>
+                        <div class="overview-card-status">
+                            <div class="overview-card-text">
+                                <h1>507</h1>
+                            </div>
+                            <div class="overview-card-aggregation">
+                                <img src="/images/icon-up.svg" alt="up-icon">
+                                <p>553%</p>
+                            </div>
+                        </div>
+                </article>
+
+                <article class="overview-card">
+                        <div class="overview-card-icon">
+                            <p>Likes</p>
+                            <img src="/images/icon-youtube.svg" alt="">
+                        </div>
+                        <div class="overview-card-status">
+                            <div class="overview-card-text">
+                                <h1>107</h1>
+                            </div>
+                            <div class="overview-card-aggregation">
+                                <img src="/images/icon-down.svg" alt="up-icon">
+                                <p class="aggregation-down">19%</p>
+                            </div>
+                        </div>
+                </article>
+
+                <article class="overview-card">
+                        <div class="overview-card-icon card-icon">
+                            <p>Total Views</p>
+                            <img src="/images/icon-youtube.svg" alt="">
+                        </div>
+                        <div class="overview-card-status">
+                            <div class="overview-card-text">
+                                <h1>1407</h1>
+                            </div>
+                            <div class="overview-card-aggregation">
+                                <img src="/images/icon-down.svg" alt="up-icon">
+                                <p class="aggregation-down">12%</p>
+                            </div>
+                        </div>
+                </article>
+            </div>
+        </div>
+        <div class="attribution" id="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://github.com/leoidk21">Leo Idk</a>.
+        </div>
+  </main>
+
+  <script>
+    const toggle = document.getElementById('check');
+    const topbg = document.getElementById('top-background');
+    const card = document.getElementById('social-media-card');
+    const itemCards = document.querySelectorAll('.item-card');
+    const overviewCards = document.querySelectorAll('.overview-card');
+    const overviewText = document.getElementById('overview-text');
+    const attribution = document.getElementById('attribution')
+
+    toggle.onclick = function() {
+      if (toggle.checked) {
+            overviewCards.forEach((overviewcard) => 
+                overviewcard.classList.add("overview-card-light")
+            );
+            itemCards.forEach((card) => 
+                card.classList.add("item-card-light")
+            );
+            topbg.classList.add("top-background-light");
+            card.classList.add("card-text-dark");
+            document.body.style.background = "var(--light-theme-white-bg)";
+            overviewText.classList.add("overview-headings");
+            attribution.classList.add("attribution-text");
+      } else {
+            overviewCards.forEach((overviewcard) => 
+                overviewcard.classList.remove("overview-card-light")
+            );
+            itemCards.forEach((card) => 
+                card.classList.remove("item-card-light")
+            );
+            topbg.classList.remove("top-background-light");
+            card.classList.remove("card-text-dark");
+            document.body.style.background = "var(--dark-theme-very-dark-blue-bg)";
+            overviewText.classList.remove("overview-headings");
+            attribution.classList.remove("attribution-text");
+      }
+    }
+  </script>
+</body>
+</html>
